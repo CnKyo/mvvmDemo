@@ -10,8 +10,8 @@
 
 @interface MovieModel : NSObject
 
-@property (strong, nonatomic) NSString *movieName;
-@property (strong, nonatomic) NSString *year;
+@property (copy, nonatomic) NSString *movieName;
+@property (copy, nonatomic) NSString *year;
 @property (strong, nonatomic) NSURL *imageUrl;
-@property (strong, nonatomic) NSString *detailUrl;
+@property (copy, nonatomic) NSString *detailUrl;
 @end
